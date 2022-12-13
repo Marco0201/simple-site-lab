@@ -1,0 +1,85 @@
+body {
+    background: #87ceeb;
+}
+
+div {
+    border: solid 5px #48cd31;
+    margin: 20px;
+    max-width: 870px;
+    max-height: 840px;
+    box-sizing: border-box;
+}
+
+div > header {
+    color: white;
+    font-size: 40px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #48cd31;
+}
+
+li:not(:last-child)::after {
+    content: '|';
+    padding: 5px;
+}
+
+section {
+    padding-left: 40px;
+
+}
+
+section > header {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 95px;
+    
+    
+}
+
+section p {
+    color: lightgrey;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 40px;
+
+}
+
+img{
+    width: 30%;
+    height: 10%;
+    float: right;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+footer ul{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer ul li {
+    padding-bottom: 35px;
+    position: static;
+}
