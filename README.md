@@ -1,7 +1,7 @@
 # simple-site-lab
 ![Screenshot 2022-12-12 at 23-04-44 Blank Template](https://user-images.githubusercontent.com/94779649/207249172-ace5a863-6f55-4dd9-a323-3af9db76b7f1.png)
 # About
-This is a simple site lab I made using only type selectors and their relationships. 
+This is a simple site lab I made using CSS type selectors and their relationships. 
 # Techs used
 Html and Css
 # Optimizations
